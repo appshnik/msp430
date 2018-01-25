@@ -10,7 +10,6 @@
 #define DP			(BIT5) 
 
 #define MAX_INT			(490)	// approximately 1.6 V DC
-#define MAX_TACCR0		(0x7FFF)
 
 int conv_st = 0;	// current state of ADC
 int otaccr0;		// TACCR0 value from previous cycle
